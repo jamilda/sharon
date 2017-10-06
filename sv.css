@@ -1,0 +1,61 @@
+body {
+	background-color: #ffffff;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover, h2:hover {
+	color: crimson;
+}
+
+.columns {
+	border: 0px;
+	padding: 10px;
+	width: 32%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.banner {
+	font-size: 36px;
+	font-weight: normal;
+	background-color: #000000;
+/*			background-size: contain; */
+	background-repeat: no-repeat; 
+	color: white;
+	text-align: left;		
+	valign: center;		
+	height: 140px;
+	width: 100%;
+}		
+
+.publication {
+	font-size: small;
+}
+
+.bannerPic {
+	background-color: #000000;
+	float: left; 
+	max-width: 100%; 
+	max-height: 100%;
+	padding-left: 5%;
+}
+
+	/* from W3 schools */
+.image {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  opacity: 1;
+  display: block;
+  height: auto; 
+  transition: .5s ease;
+  backface-visibility: hidden;
+  
+}
+
+.image:hover  {
+	transform: scale(1.05);
+	opacity: 0.8;
+}

@@ -6,8 +6,10 @@
 		<title>Sharon Verghis</title>	
 		
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>	
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 	<style type="text/css">
 
 		body {
@@ -45,6 +47,8 @@
 			valign: center;		
 			height: 140px;
 			width: 100%;
+/*			position: fixed; 
+			z-index:1000;*/
 		}		
 		
 		.publication {
@@ -75,6 +79,10 @@
 			transform: scale(1.05);
 			opacity: 0.8;
 		}
+		
+		.fa-twitter:hover { 
+			color: ##1a8bf0 !important; 		
+		}
 
 	</style>
 
@@ -93,6 +101,7 @@
 			<div>
 			</div>
 		</div>
+		
 <!--		
 		<img src="images/IMG_5367.JPG" alt="Smiley face" width="100" height="100"> 
 
@@ -101,7 +110,31 @@
 -->
 <!--			
 	menu: home, bio, features(politics, social issues, , columns, travel, contact
+	https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
 -->
+
+		<nav class="navbar navbar-inverse" style="margin-top:3px;margin-bottom:0">
+		  <div class="container-fluid">
+			<ul class="nav navbar-nav">
+			  <li class="active"><a href="#">Home</a></li>
+			  <li><a href="bio.html">Bio</a></li>
+			  <li><a href="#">Features</a></li>
+			  <li><a href="#">Politics</a></li>
+			  <li><a href="#">Social issues</a></li>
+			  <li><a href="#">Columns</a></li>
+			  <li><a href="#">Travel</a></li>
+			  <li><a href="#">Contact</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://twitter.com/SVerghis"><i class="fa fa-lg fa-twitter" ></i></a></li> 			
+	<!--			<li><a href="#"><i class="fa fa-lg fa-facebook"></i></a></li> 			-->
+				<li><a href="https://www.linkedin.com/in/sharon-verghis-26217963/"><i class="fa fa-lg fa-linkedin" style="color:#0073B0"></i></a></li> 			
+				
+	<!--			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+			</ul>
+		  </div>
+		</nav>
+
 		<!-- 1st row -->
 		<div class="columns">
 			<img src="images/timeLogo2.JPG" alt="Smiley face" style="max-width: 100%; max-height: 100%;"> 	
@@ -115,6 +148,16 @@
 		</div>
 		
 		<div class="columns">
+			<img src="images/ozLogo.JPG" alt="Smiley face" style="max-width: 100%; max-height: 100%;"> 	
+			<h2 aligh="center">A passage from Provence</h2>
+			<a href="stories/Provence via riverboat_ a magical way to experience southern France.html">
+				<img src="images/lyon.jpg" alt="Smiley face"  class="image"> 
+				<h3 aligh="center">Here’s a toast to wine-loving popes and the ancient Roman trade route along the Rhone.</h3>
+				<h5>As the sun sets, I’m watching the Rhone from the balcony of my cosy, well-appointed stateroom on the Viking Longship Delling ...</h5>
+			</a>
+		</div>		
+		
+		<div class="columns">
 			<img src="images/smhLogo.JPG" alt="Smiley face" style="max-width: 100%; max-height: 100%;"> 	
 			<h2 aligh="center">Notes from an 'early sender'</h2>
 			<a href="http://www.smh.com.au/lifestyle/life-and-relationships/parenting/i-sent-my-twins-to-school-early-and-i-dont-regret-my-decision-20170316-guzn3d.html">
@@ -125,6 +168,9 @@
 			</a>
 		</div>
 		
+		<!-- 2nd row -->
+		<br>	
+		
 		<div class="columns">
 			<img src="images/ozLogo.JPG" alt="Smiley face" style="max-width: 100%; max-height: 100%;"> 	
 			<h2 aligh="center">Original Skin</h2>
@@ -133,22 +179,7 @@
 				<h3 aligh="center">Nudity in dance is staging a comeback</h3>
 				<h5>Izzac Carroll, 18, prowls around Henry Moore’s reclining Henry Moore’s Fallen Warrior before nimbly springing up on a bench. ...</h5>
 			</a>
-		</div>
-		
-		<!-- 2nd row -->
-		<br>		
-
-		<div class="columns">
-		
-			<img src="images/smhLogo.JPG" alt="Smiley face" style="max-width: 100%; max-height: 100%;"> 	
-			<h2 aligh="center">Serena Williams' demented detractors</h2>
-			<a href="images/Serena Williams' demented detractors.html">
-				<img src="images/serena.jpg" alt="Smiley face"  class="image"> 
-				<h5>
-					In September last year, Nike nominated Serena Williams as the best athlete in the world – of all time...
-				</h5>
-			</a>
-		</div>
+		</div>		
 				
 		<div class="columns">
 			<img src="images/ageLogo.JPG" alt="Smiley face" style="max-width: 100%; max-height: 100%;"> 	
@@ -211,6 +242,19 @@ But how does it work? Who’s running it? And why? Sharon Verghis gets the insid
 			</a>
 		</div>
 
+		<!-- 3rd row -->
+		<br>		
 
+		<div class="columns">		
+			<img src="images/smhLogo.JPG" alt="Smiley face" style="max-width: 100%; max-height: 100%;"> 	
+			<h2 aligh="center">Serena Williams' demented detractors</h2>
+			<a href="images/Serena Williams' demented detractors.html">
+				<img src="images/serena.jpg" alt="Smiley face"  class="image"> 
+				<h5>
+					In September last year, Nike nominated Serena Williams as the best athlete in the world – of all time...
+				</h5>
+			</a>
+		</div>
+		
 	</body>
 </html>
