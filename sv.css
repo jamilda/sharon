@@ -59,3 +59,7 @@ a:hover, h2:hover {
 	transform: scale(1.05);
 	opacity: 0.8;
 }
+
+.fa-twitter:hover { 
+	color: ##1a8bf0 !important; 		
+}
