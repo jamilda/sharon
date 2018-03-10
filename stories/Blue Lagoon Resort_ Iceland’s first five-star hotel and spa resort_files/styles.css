@@ -1,0 +1,564 @@
+/*
+ * TCOG ARTICLE PAGE HOTFIXES CSS V1.3
+ */
+
+/*-- Event brite fix - valid until March 20th --*/
+
+.sales-event-brite-aus-2450 .event-location,
+.sales-event-brite-aus-2450 .event-date-time,
+.sales-event-brite-aus-2450 .event-button span {
+	display: none;
+}
+
+.sales-event-brite-aus-2450 .event-button {
+	margin-top: 50px
+}
+
+.sales-event-brite-aus-2450 .event-button:before {
+	content: 'Enter Now'
+}
+
+
+/*-- Arts Mega Menu link --*/
+
+#nav > ul > li.megamenu > ul.sub-menu .mega-menu-item-review .tier-3 .mega-child a {
+	padding: 0;
+	text-indent: 0;
+}
+
+/*-- Outbrain --*/
+
+.outbrain-group {
+	display: none !important;
+}
+
+/*-- Footer --*/
+
+@media (max-width: 767px) {
+
+	.footer-wrap-01.mobile-footer #footer-01 .footer-mobile-02 {
+		display: block !important;
+	}
+
+	html .footer-wrap-01.mobile-footer #footer-01 .footer-mobile-02 li{
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 768px) {
+
+	.footer-wrap-01.desktop-footer #footer-01 .footer-desktop-01>li:nth-child(1) li a{
+		background: url(https://wp.com/wp-content/themes/vip/newscorpau-theaustralian/assets/dist/img/app-store-button.png) no-repeat;
+		display: block;
+		height: 30px;
+		text-indent: -9999em;
+		width: 102px;
+		margin: 8px 0 0 15px;
+
+	}
+
+	.footer-wrap-01.desktop-footer #footer-01 .footer-desktop-01 li:nth-child(1) li.last a{
+		background: url(https://wp.com/wp-content/themes/vip/newscorpau-theaustralian/assets/dist/img/google-play-button.png) no-repeat;
+
+	}
+
+	body .footer-wrap-01.desktop-footer #footer-01 .footer-desktop-01>li:nth-child(2) span {
+		background: none;
+	}
+
+
+	body .footer-wrap-01.desktop-footer #footer-01 .footer-desktop-01>li:nth-child(2) li a {
+		background: none;
+		color: #333;
+		font-size: 12px;
+		line-height: 24px;
+		margin: 0 0 5px;
+		display: inline;
+		height: 30px;
+		text-indent: inherit;
+		width: inherit;
+	}
+
+	body .footer-wrap-01.desktop-footer #footer-01 .footer-desktop-01>li:nth-child(2) li:last-child a {
+		background: none;
+	}
+
+}
+
+/*-- Iframe --*/
+
+#show-web-mobile {
+	display: block !important;
+	opacity: 1 !important;
+	height: 480px !important;
+	width: 640px !important;
+}
+
+/*-- MOBILE --*/
+html body.weekend #header .logo a {
+	background-size: 240px;
+	width: 240px;
+}
+
+/* DESKTOP */
+
+/* Hide GFF widget on wealth as there is multiple events */
+
+.story.business-wealth #newscorpau_static_template-543,
+.story.business-wealth #newscorpau_static_template-579 {
+	display: none !important;
+}
+
+/* Story iframe */
+
+.secondary-asset.story-iframe iframe + p,
+.secondary-asset.story-iframe iframe + .story-caption { display: none; }
+
+#story-media-assets .secondary-asset.story-iframe iframe + p,
+#story-media-assets .secondary-asset.story-iframe iframe + .story-caption { display: block; }
+
+/* ANZ widget */
+
+#newscorpau_promo_collection-744,
+#newscorpau_promo_collection-745 {
+	display: none;
+}
+
+.business-opinion #newscorpau_promo_collection-744,
+.business-opinion #newscorpau_promo_collection-745 {
+	display: block;
+}
+
+/* Tennis widget */
+
+#newscorpau_external_includes_external_includes-225,
+#newscorpau_external_includes_external_includes-226 {
+	display: none;
+}
+
+.sport-tennis #newscorpau_external_includes_external_includes-225,
+.sport-tennis #newscorpau_external_includes_external_includes-226 {
+	display: block;
+}
+
+#content .tg-tlc-scoreboard .tg-tlc-scoreboard-heading {
+	padding: 0;
+	border-bottom: 1px solid #e5e4da;
+	border-top: 5px solid #d5e8ef;
+	color: #004563;
+	font: 400 16px/20px "Times New Roman",sans-serif;
+	line-height: 32px;
+}
+
+#content .tg-tlc-scoreboard .tg-tlc-scoreboard-team {
+	font-weight: bold;
+}
+
+.tg-tlc-scoreboard-tennis .tg-tlc-scoreboard-player-score-point {
+	font-family: arial, sans-serif;
+	font-weight: normal;
+}
+
+.tg-tlc-scoreboard-tennis .tg-tlc-scoreboard-player-score-6,
+.tg-tlc-scoreboard-tennis .tg-tlc-scoreboard-player-score-7,
+.tg-tlc-scoreboard-tennis .tg-tlc-scoreboard-player-score-8,
+.tg-tlc-scoreboard-tennis .tg-tlc-scoreboard-player-score-9,
+.tg-tlc-scoreboard-tennis .tg-tlc-scoreboard-player-score-10 {
+	font-weight: bold;
+}
+
+#content .tg-tlc-scoreboard .tg-tlc-scoreboard-fixture-list {
+	border-color: #f5f4ed;
+}
+
+/* ANZ - opinion */
+
+#newscorpau_promo_collection-724,
+#newscorpau_promo_collection-725{
+	display: none !important;
+}
+
+.story.business-opinion #newscorpau_promo_collection-724,
+.story.business-opinion #newscorpau_promo_collection-725{
+	display: block !important;
+}
+
+
+.sales-16-igs177,
+.sales-01-igs177,
+.group-id-1227483512760 .group-header,
+#story-info li.comments .livefyre-commentcount:after,
+body.deck .ad-container.lumberjack,
+body.national-affairs #newscorpau_promo_collection-482 {
+	display: none !important;
+}
+
+
+
+.sales-01-video-igs190 .group-header {
+	border: none !important;
+}
+
+#story .sales-01-video-igs190 .vms {
+	border-bottom: none !important;
+	clear: both;
+}
+
+/* DECK START */
+
+@media (max-width: 425px){
+	html body.deck #content .hero-top-wrap #hero.hero-title div.container h1, html body.deck #content .hero-top-wrap #hero.hero-top-title div.container h1 {
+		margin: 0 0 20px;
+		color: #000;
+	}
+}
+
+body.deck.story.business #header-article {
+	display: none !important;
+}
+
+body.deck.deck-coming-soon #content .deck-themed .apply-feature li:first-child {
+	height: 760px!important;
+}
+
+@media (max-width: 425px) {
+	body.deck #content .deck-themed .apply-feature li:first-child,
+	body.deck.deck-coming-soon #content .deck-themed .apply-feature li:first-child {
+		height: 560px!important;
+	}
+}
+
+body.deck.deck-coming-soonish #content .deck-themed .apply-feature li:first-child {
+	/*pending*/
+	height: 560px;
+}
+
+body.deck.deck-coming-soonish #content .deck-themed .apply-feature li {
+	/*pending*/
+	height: 270px;
+}
+
+body.deck #content .deck-themed .apply-feature li {
+	/*pending*/
+	height: 600px;
+}
+
+body.deck.deck-theme-episode #content .widget_newscorpau_promo_collection ul li:nth-child(odd), body.deck #content .widget_newscorpau_capi_sync_collection ul li:nth-child(odd) {
+	float: left;
+}
+
+/* Hide superskin on deck */
+
+.story.deck #super-skin-center,
+.story.deck #super-skin-left-wrapper,
+.story.deck #super-skin-right-wrapper {
+	display: none !important;
+}
+
+/* IE11 heading tweak for deck */
+/* pending removal 25/11/16 */
+
+.deck #header-article #header-logo .ad-ear {
+	top: -10px;
+}
+
+body.deck #header-article #header-logo {
+	background-position: 0 10px;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.deck #header-article #header-logo {
+		margin-top: 0 !important;
+		margin-bottom: 0 !important;
+	}
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.deck #header-article #header-logo .ad-ear {
+		top: 0px;
+	}
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	html body.deck #header #header-logo {
+		background-postion: 0 0 !important;
+	}
+}
+
+
+/* DECK END */
+
+
+
+.opinion-rotator-fresh .prm-story a:after,
+.opinion-rotator-fresh a.prm-story:after {
+	display: none!important;
+}/* US Election winner */
+
+span.count.label2.list-winner:before,
+.list-winner span.list-bar .list-bar-inner:before {
+	display: inline-block;
+	margin-left: 5px;
+	padding-left: 12px;
+	color: #fff;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAJCAYAAADgkQYQAAAAAXNSR0IArs4c6QAAAJdJREFUGBl9zL0NgkAUwPE7TahYgAGwocKQQGWojYnDsAU1YQYnoGcKWx1ALIwmGvX8P75yFPiS3937ulPqTxhjfBTLuR2GIbMa93aHxgru8IB8jQsaBIpjhy8yWeKOIMMb4uGXkkLigARXPJC2C3JQ5JD44IUntuMCyQLnviH5G3utddX3uotXHo44YTMZ2gVDDcfu2fkPQ5eACUE+800AAAAASUVORK5CYII=) 0 50% no-repeat;
+	content: 'Winner';
+	font-size: 12px;
+	font-weight: bold;
+}
+
+/* Fox Sport Cricket Widget hotfixes */
+body.sport.live-coverage #extras-atf {
+	text-align: center;
+}
+
+.fscsw.fscsw-theme-blue .fscsw-module-header {
+	display:none!important;
+}
+
+.fscsw .fscsw-module-border {
+	border-width: 1px 0!important;
+}
+
+.fscsw-matchscoreboardcricket-module .fscsw-match-centre-link-container {
+	background: #fff!important;
+
+}
+
+.fscsw-matchscoreboardcricket-module .fscsw-match-centre-link, .fscsw-matchscoreboardcricket-module .fscsw-match-centre-link:hover {
+	font-size: 12px!important;
+	font-family: Arial , sans-serif!important;
+	color: #277f9c!important;
+}
+
+.fscsw-matchscoreboardcricket-module .fscsw-layout-wide .fscsw-state--post .fscsw-match {
+	color: #000!important;
+	text-transform: none!important;
+	font-family: "Times New Roman", sans-serif!important;
+}
+
+.fscsw-matchscoreboardcricket-module .fscsw-layout-wide .fscsw-match-details {
+	color: #7b7b7b!important;
+	padding-top: 6px!important;
+}
+
+.fscsw-matchscoreboardcricket-module .fscsw-layout-wide {
+	font-family: Arial , sans-serif!important;
+}
+
+.fscsw-matchscoreboardcricket-module .fscsw-layout-wide .fscsw-team .fscsw-team-innings .fscsw-team-innings-prior {
+	color: #000!important;
+	margin-top: 0px!important;
+}
+
+/* NAB 9th Dec Finish */
+
+#newscorpau_video_promo-65 .vms-thumbnail,
+#newscorpau_video_promo-64 .vms-thumbnail {
+	display: none !important;
+}
+
+#newscorpau_video_promo-65 .vms-playlist,
+#newscorpau_video_promo-64 .vms-playlist {
+	border-bottom: none;
+}
+
+#newscorpau_video_promo-65,
+#newscorpau_video_promo-64 {
+	display: none !important;
+}
+
+.business-businessnow #newscorpau_video_promo-65,
+.business-business-spectator #newscorpau_video_promo-65,
+.business-margin-call #newscorpau_video_promo-65,
+.business-businessnow #newscorpau_video_promo-64,
+.business-business-spectator #newscorpau_video_promo-64,
+.business-margin-call #newscorpau_video_promo-64 {
+	display: block !important;
+}
+
+
+@media screen and (max-width: 640px) {
+	#lightcase-info #lightcase-title {
+		position: relative;
+		top: 0;
+		left: auto;
+		max-width: 100%;
+		padding: 5px 15px;
+		background: transparent;
+	}
+}
+
+
+/* Event Widget DYN-3059 */
+/*#newscorpau_static_template-567 {  display: none !important; }*/
+#newscorpau_static_template-570 {  display: none !important; }
+#newscorpau_static_template-575 {  display: none !important; }
+
+.story.news-the-world #newscorpau_static_template-570 {  display: block !important; }
+.story.mobile.news-the-world #newscorpau_static_template-575 {  display: block !important; }
+
+
+/* NAB video IGS-249 */
+#newscorpau_reference_widget-374 { display: none !important; }
+#newscorpau_reference_widget-381 { display: none !important; }
+
+.business.business-wall-street-journal #newscorpau_reference_widget-374,
+.business.business-technology #newscorpau_reference_widget-374,
+.business.business-economics #newscorpau_reference_widget-374,
+.business.business-companies #newscorpau_reference_widget-374 {
+	display: block !important;
+}
+
+.business.business-wall-street-journal #newscorpau_reference_widget-381,
+.business.business-technology #newscorpau_reference_widget-381,
+.business.business-economics #newscorpau_reference_widget-381,
+.business.business-companies #newscorpau_reference_widget-381 {
+	display: block !important;
+}
+
+#newscorpau_reference_widget-376 {  display: none !important; }
+
+.business.business-wall-street-journal #newscorpau_reference_widget-376,
+.business.business-technology #newscorpau_reference_widget-376,
+.business.business-economics #newscorpau_reference_widget-376,
+.business.business-companies #newscorpau_reference_widget-376 {
+	display: block !important;
+}
+
+
+/* DECK Jeff Horn css cheat */
+@media (min-width: 768px) {
+	body.deck #content div.card.backgroundVideo.text-pos-bottom .cover .hi {
+		top: 90vh;
+		background: linear-gradient(to bottom,transparent 0%,rgba(0,0,0,.04) 30%,rgba(0,0,0,.55) 100%);
+	}
+}
+
+body.deck #content div.card.backgroundVideo.text-colour-light .cover .hi {
+	color: #fff;
+}
+
+body.deck img.float-left { float: left; }
+body.deck img.float-right { float: right; }
+
+/* bill leak hotfix */
+[data-nca-capi-id="fffed23e6be752a4edc0bc15eb55e5c0"] .latest-updates {
+	display: none!important;
+}
+
+/* firefox issue only on story page */
+.group-newsletter-subscribe iframe {
+	display: inline-block!important;
+	position: relative!important;
+	left: 12px!important;
+}
+
+/* live coverage hot fix for double “live” icon in related stories */
+/* .story-related-links.secondary-asset ul > li.related-read-more.related-live {display: none!important;} */
+
+/* related story in sidebar issue with ing appearing */
+#sidebar .story-related-links img {
+    display: none;
+}
+
+/* newsletter signup on business */
+#newscorpau_reference_widget-111,
+#newscorpau_reference_widget-119,
+#newscorpau_static_template-422 {display:none!important;}
+
+
+ 
+
+/* Foxsport TEMP styles for AUS OPEN stats jan 2018 ONLY */
+/* tennis */
+.fscsw.fscsw-sport-tennis .fscsw-module-border {
+	border: none!important;
+
+}
+.fscsw.fscsw-sport-tennis {
+	font-family: "Times New Roman",Times,serif;
+}
+
+.fscsw.fscsw-theme-blue tr.fscsw-table-header th, .fscsw.fscsw-theme-blue tr.fscsw-table-header td {
+	background-color: #fff!important;
+}
+
+.fscsw.fscsw-sport-tennis .fscsw-tab-nav ul li a {
+	color: #918e76!important;
+	font-size: 14px;
+	font-weight: normal;
+	font-style: normal;
+	font-stretch: normal;
+	line-height: 2.14;
+	letter-spacing: normal;
+}
+
+.fscsw.fscsw-sport-tennis .fscsw-tab-nav ul li {
+	border-bottom: 1px solid #e5e4db;
+}
+
+.fscsw.fscsw-sport-tennis .fscsw-tab-nav ul li.fscsw-active-tab {
+	border-bottom: none;
+	border-top: 1px solid #e5e4db;
+}
+
+.fscsw.fscsw-sport-tennis .fscsw-tab-nav ul li.fscsw-active-tab a {
+	color: #064a69!important;
+	text-decoration: none;
+}
+
+.fscsw.fscsw-sport-tennis .fscsw-tab-nav {
+	border: none;
+	border-color: #e5e4db;
+}
+
+.fscsw.fscsw-sport-tennis .fscsw-table-header th {
+	text-transform: capitalize;
+	border-right: none;
+	border-left: none;
+	border-color: #e5e4db;
+}
+
+.fscsw.fscsw-sport-tennis td {
+	font-size: 14px;
+	line-height: 1.14;
+	border-color: #e5e4db;
+}
+
+.fscsw.fscsw-sport-tennis td:first-child {
+	border-right: none;
+	font-weight: bold;
+
+}
+
+.fscsw.fscsw-sport-tennis .fscsw-data-unavailable,
+.fscsw.fscsw-sport-tennis table td a {
+	color: #333;
+}
+
+@media screen and (min-width: 747px) {
+.fscsw-matchscoreboardcricket-module .fscsw-layout-default .fscsw-state--pre .fscsw-team {
+    margin-top: 0px!important;
+}
+
+#content .fscsw-matchscoreboardcricket-module .fscsw-layout-default .fscsw-cricket-international-flag.fscsw-cricket-flag--logo-60001 {
+	background-position: 0px -60px!important;
+}
+
+#content .fscsw-matchscoreboardcricket-module .fscsw-layout-default .fscsw-cricket-international-flag.fscsw-cricket-flag--logo-60002 {
+    background-position: -160px 0px!important;
+}
+
+#content .fscsw-matchscoreboardcricket-module .fscsw-layout-default .fscsw-cricket-international-flag.fscsw-cricket-flag--logo-60010 {
+    background-position: 0px -60px!important;
+}
+
+#content .fscsw-matchscoreboardcricket-module .fscsw-layout-default .fscsw-cricket-international-flag.fscsw-cricket-flag--logo-60013 {
+    background-position: 0px 100%!important;
+}
+
+}
+
+
